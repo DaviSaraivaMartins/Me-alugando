@@ -102,7 +102,7 @@ header{
 /* Inicio do home */
 .home{
     margin-top: 5rem;
-    background: url(img/casah.jpg);
+    background: url(img/mobile.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -114,8 +114,13 @@ header{
 .home-text {
     padding-left: 35px;
 }
+.home-text p{
+    color: #fff;
+    font-size: 1.2em;
+    background-color: #A4A4A4;
+}
 .home-text h1{
-    color: var(--bg-color);
+    color: var(--main-color);
     font-size: 2rem;
     margin-bottom: 1rem;
 }
@@ -151,11 +156,11 @@ header{
     transform: 0,4s all linear;
 }
 .sales .box .bx{
-    padding: 10px;
+    padding: 20px;
     border-radius: 50%;
     color: var(--main-color);
     background: #f6f6fe;
-    font-size: 20px;
+    font-size: 40px;
 }
 .sales .box .h3{
     font-size: 1.1rem;
@@ -237,7 +242,17 @@ transition: 0.5s;
     font-weight: 500;
     margin-left: 4px;
 }
+.newsletter{
+    background-image: url('img/goiania.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .newsletter {
+
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -246,6 +261,7 @@ transition: 0.5s;
 }
 .newsletter h2 {
     font-size: 1.7rem;
+    color: #fff;
 
 }
 .newsletter form {
